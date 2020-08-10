@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Traveller Bangladesh: Contact Us</title>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mytarget">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><span style="color: green;">Traveller</span> <span style="color: red;">Bangladesh</span></a>
+                </div>
+                <div class="collapse navbar-collapse" id="mytarget">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#">ABOUT US</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6" id="form-info">
+                    <div class="contact-title">
+                        <h1>Say Hello!</h1>
+                        <h2>We would love to hear from you.</h2>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form" method="post" action="contact.php">
+                            <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                            <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+                            <input type="submit" class="form-control-submit" value="SEND MESSAGE">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <code>&copy; All right reserved to Traveller Bangladesh | 2020</code>
+    </footer>
+</body>
+
+</html>

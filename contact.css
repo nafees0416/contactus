@@ -1,0 +1,71 @@
+nav>.container-fluid {
+    padding-right: 3%;
+    border: none;
+    border-top: 15px solid rgb(1, 77, 1);
+    background-color: rgba(255, 255, 255, 0.199);
+}
+
+body {
+    background: url("https://labs4.kentooz.com/wpwallpaper/wp-content/uploads/2013/04/Nature-Wallpaper-99.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#form-info {
+    background: #ffffff1e;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+.contact-title {
+    margin-bottom: 7%;
+}
+
+.contact-title h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact-title h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+#contact-form>::placeholder {
+    color: #ffffffa8;
+}
+
+.form-control-submit {
+    margin-top: 4%;
+    background-color: rgb(192, 192, 192);
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.form-control-submit:hover {
+    background-color: rgb(168, 167, 167);
+}
+
+footer {
+    text-align: center;
+    background-color: #d3d3d3;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer>code {
+    background-color: transparent;
+    color: #444444;
+}
