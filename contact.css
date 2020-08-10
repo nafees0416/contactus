@@ -63,6 +63,7 @@ footer {
     background-color: #d3d3d3;
     padding-top: 6%;
     padding-bottom: 6%;
+    float: bottom;
 }
 
 footer>code {
