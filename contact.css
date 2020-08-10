@@ -73,3 +73,12 @@ footer>code {
     background-color: transparent;
     color: #444444;
 }
+@media screen and (max-width: 400px) {
+    #form-info {
+        background: #ffffff1e;
+        margin-top: 3%;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        margin-bottom: 30%;
+    }
+}
